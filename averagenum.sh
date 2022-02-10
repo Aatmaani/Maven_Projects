@@ -6,7 +6,7 @@ sum=0
 echo "Enter a numbers"
 while [ $i -lt $N ]
 do
-	num=$2
+	read num
 	sum=$((sum + num))
 	i=$((i + 1))
 done
