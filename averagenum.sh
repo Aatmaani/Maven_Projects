@@ -4,7 +4,7 @@ read N
 i=0
 sum=0
 echo "Enter a numbers"
-while [ $i -lt $N ]
+while [ $i <= $N ]
 do
 	read num
 	sum=$((sum + num))
