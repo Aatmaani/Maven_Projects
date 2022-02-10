@@ -1,12 +1,12 @@
 #!/bin/bash
 echo "Enter a size"
-read N
+N=$1
 i=0
 sum=0
 echo "Enter a numbers"
-while [ $i <= $N ]
+while [ $i -lt $N ]
 do
-	read num
+	num={'2,5,6,4,3'}
 	sum=$((sum + num))
 	i=$((i + 1))
 done
